@@ -7,6 +7,7 @@ import {NavbarComponent} from "../../components/navbar/navbar.component";
 import {PostsComponent} from "../../components/posts/posts.component";
 import {TopComponent} from "../../components/top/top.component";
 import {ArticlesComponent} from "../../components/articles/articles.component";
+import {HomeRoutingModule} from "./home.routing.module";
 
 
 // Home module pour les différents composants de la page home , création de home module car il devrait exister trois modules , home,
@@ -22,6 +23,7 @@ import {ArticlesComponent} from "../../components/articles/articles.component";
     ArticlesComponent
   ],
   imports: [
+    HomeRoutingModule,
     CommonModule
   ]
 })
